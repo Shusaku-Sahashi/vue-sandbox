@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -13,6 +14,7 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "@storybook/vue": "^6.0.10",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
@@ -23,6 +25,7 @@
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^1.19.1",
+    "vue-loader": "^15.9.3",
     "vue-template-compiler": "^2.6.11"
   }
 }
